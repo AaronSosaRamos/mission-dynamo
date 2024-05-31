@@ -1,0 +1,47 @@
+.App {
+    padding: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+}
+.inputContainer button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inputField {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.flashcardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flashcard {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
